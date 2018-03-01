@@ -1,0 +1,3 @@
+[submodule "ios-kern-utils"]
+	path = ios-kern-utils
+	url = https://github.com/Siguza/ios-kern-utils
