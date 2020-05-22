@@ -16,3 +16,10 @@ $ sudo bin/nvram-liber-macos $(nm /System/Library/Kernels/kernel | egrep 'mac_po
 	My favourites are `-v cs_enforcement_disable=1 amfi_get_out_of_my_way=1 keepsyms=1 intcoproc_unrestricted=1`
 
 Also see [this thread on newosxbook forum](http://www.newosxbook.com/forum/viewtopic.php?t=16798).
+
+# Alternative method
+Boot into linux, set efivar there.
+
+See https://gitlab.collabora.com/zumbi/sip for example.
+
+Thanks @grishka for the idea.
